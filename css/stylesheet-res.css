@@ -1,0 +1,171 @@
+@media all and (max-width: 1200px) {
+    .loggin_btn{
+        display: none;
+    }
+}
+
+@media all and (max-width: 1150px) {
+    #logo{
+        display: none;
+    }
+    #logo-2{
+        display: inline-block;
+    }
+    #title_logo{
+        position: absolute;
+    }
+    #title{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .title_bar{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .title_bar li{
+        margin-top: 10px;
+    }
+    #bg_image{
+        height: auto;
+        min-height: 250px;
+    }
+    #header_bar{
+        position: relative;
+        background-image: url("../image/bg_sec.jpg");
+    }
+    #bg_image{
+        display: none;
+    }
+    #tile_area{
+        top: 30px;
+        position: relative;
+    }
+    .mainTitle{
+        margin-top: 50px;
+    }
+    #wrapper{
+        padding-top: 0;
+    }
+    #cus_btn{
+        display: block;
+        padding-top: 20px;
+        width: 100%;
+        float: left;
+    }
+    .wrapper-sec{
+        padding-top: 0;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .mainTitle{
+        margin-top: 20px;
+    }
+    #tile_area{
+        top: 0;
+        height: auto;
+        position: relative;
+    }
+    #tile_area table tr td{
+        display: inline-block;
+    }
+    #final_bar table tr td label{
+        display: block;
+    }
+    #final_bar table tr td input{
+        margin-left: 0;
+    }
+    .content_box{
+        float: none!important;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #search-customer-txt{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #txtSearch{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    #search-box-area{
+        float: none;
+    }
+    #final_bar table tr td{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #final_bar table tr td input{
+        width: calc(100% - 45px);
+    }
+}
+
+@media all and (max-width: 650px) {
+    .sub-content-area{
+        display: block;
+    }
+}
+
+@media all and (max-width: 520px) {
+    .sub{
+        display: block;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .mainTitle{
+        text-align: center;
+        margin-left: 0;
+    }
+    #footer_bar button{
+        width: calc(100% - 15px);
+        margin-bottom: 10px;
+    }
+    #btn-new-cus{
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    #cmb-cus{
+        display: block;
+        width: calc(100% - 5px);
+        margin-top: 5px;
+    }
+    .input-on-res{
+        display: block;
+        width: calc(100% - 20px)!important;
+        margin-top: 5px;
+    }
+    #cmb-item{
+        display: block;
+        width: calc(100% - 5px);
+        margin-top: 5px;
+    }
+}
+
+@media all and (max-width: 390px){
+    #txtSearch{
+        width: calc(100% - 25px);
+    }
+    #btn-search{
+        width: calc(100% - 10px);
+    }
+    #cmb-search{
+        width: calc(100% - 10px);
+        margin-bottom: 10px;
+    }
+    #cus_btn button{
+       width: calc(100% - 10px);
+        margin-bottom: 10px;
+    }
+    #bottom-buttons button{
+        width: calc(50% - 20px);
+        margin-bottom: 10px;
+    }
+}
