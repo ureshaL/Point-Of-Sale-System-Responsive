@@ -12,3 +12,7 @@
 ### This is tablets view
 
 ![GitHub Logo](https://raw.githubusercontent.com/ureshaL/Point-Of-Sale-System-Responsive/master/image/Capture_tablet.PNG)
+
+### This is phone view
+
+![GitHub Logo](https://raw.githubusercontent.com/ureshaL/Point-Of-Sale-System-Responsive/master/image/Capture_phone.PNG)
